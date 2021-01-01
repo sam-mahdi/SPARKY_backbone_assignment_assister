@@ -116,7 +116,7 @@ def search_file(question):
 def main():
     find_peaks()
     while True:
-        question=input('type in nitrogen dimensions: ')
+        question=input('type in nitrogen shift: ')
         if question == 'quit':
             break
         search_file(question)
