@@ -1,9 +1,10 @@
 import re
 
-
+"""Simply change the below lines to the names of your file"""
 HNCA='G_ML_HNCA.list'
 HNCACB='G_ML_HNCACB.list'
 NHSQC='G_ML_Nhsqc.list'
+"""These are tolerances that determine the range of peak variations accepted"""
 carbon_tolerance=0.2
 nitrogen_tolerance=0.1
 hydrogen_tolerance=0.05
