@@ -106,7 +106,7 @@ def search_file(question):
     found_flag=False
     with open(match_table) as file:
         for lines in file:
-            if found_flag is True and re.search('^[A-Z]',lines.split()[0]) is not None:
+            if found_flag is True and re.search("\['\d+",lines.split()[0]) is None:
                 found_flag=False
             if found_flag is True:
                 print(lines)
